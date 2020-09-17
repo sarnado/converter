@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1600376866">
+  <project timestamp="1600376866">
+    <package name="Sarnado\Converter\Builders">
+      <file name="/Users/tests/PhpstormProjects/converter/src/Builders/CryptoRatesCollectionBuilder.php">
+        <class name="Sarnado\Converter\Builders\CryptoRatesCollectionBuilder" namespace="Sarnado\Converter\Builders" fullPackage="Sarnado" package="Sarnado">
+          <metrics complexity="6" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="11" coveredelements="11"/>
+        </class>
+        <line num="23" type="method" name="build" visibility="public" complexity="6" crap="6" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="34" type="stmt" count="2"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <metrics loc="46" ncloc="38" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="11" coveredelements="11"/>
+      </file>
+      <file name="/Users/tests/PhpstormProjects/converter/src/Builders/FiatRatesCollectionBuilder.php">
+        <class name="Sarnado\Converter\Builders\FiatRatesCollectionBuilder" namespace="Sarnado\Converter\Builders" fullPackage="Sarnado" package="Sarnado">
+          <metrics complexity="4" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="9" coveredelements="9"/>
+        </class>
+        <line num="23" type="method" name="build" visibility="public" complexity="4" crap="4" count="2"/>
+        <line num="25" type="stmt" count="2"/>
+        <line num="26" type="stmt" count="2"/>
+        <line num="28" type="stmt" count="2"/>
+        <line num="30" type="stmt" count="2"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <metrics loc="40" ncloc="32" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="9" coveredelements="9"/>
+      </file>
+    </package>
+    <package name="Sarnado\Converter\Checkers">
+      <file name="/Users/tests/PhpstormProjects/converter/src/Checkers/TypeValidator.php">
+        <class name="Sarnado\Converter\Checkers\TypeValidator" namespace="Sarnado\Converter\Checkers">
+          <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+        </class>
+        <line num="9" type="method" name="isNum" visibility="public" complexity="2" crap="2" count="64"/>
+        <line num="11" type="stmt" count="64"/>
+        <line num="13" type="stmt" count="40"/>
+        <line num="15" type="stmt" count="64"/>
+        <metrics loc="17" ncloc="17" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </file>
+    </package>
+    <package name="Sarnado\Converter\Collections">
+      <file name="/Users/tests/PhpstormProjects/converter/src/Collections/CryptoRatesCollection.php">
+        <class name="Sarnado\Converter\Collections\CryptoRatesCollection" namespace="Sarnado\Converter\Collections" fullPackage="Sarnado" package="Sarnado">
+          <metrics complexity="10" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="14" coveredelements="14"/>
+        </class>
+        <line num="19" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="9"/>
+        <line num="21" type="stmt" count="9"/>
+        <line num="23" type="stmt" count="5"/>
+        <line num="27" type="stmt" count="4"/>
+        <line num="29" type="stmt" count="5"/>
+        <line num="35" type="method" name="check" visibility="private" complexity="4" crap="4" count="9"/>
+        <line num="37" type="stmt" count="9"/>
+        <line num="39" type="stmt" count="7"/>
+        <line num="41" type="stmt" count="7"/>
+        <line num="43" type="stmt" count="4"/>
+        <line num="47" type="stmt" count="5"/>
+        <line num="52" type="method" name="anonymousFunction:52#209" complexity="2" crap="2" count="2"/>
+        <line num="54" type="stmt" count="1"/>
+        <line num="55" type="stmt" count="2"/>
+        <metrics loc="57" ncloc="45" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="14" coveredelements="14"/>
+      </file>
+      <file name="/Users/tests/PhpstormProjects/converter/src/Collections/FiatRatesCollection.php">
+        <class name="Sarnado\Converter\Collections\FiatRatesCollection" namespace="Sarnado\Converter\Collections" fullPackage="Sarnado" package="Sarnado">
+          <metrics complexity="10" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="14" coveredelements="14"/>
+        </class>
+        <line num="21" type="method" name="__construct" visibility="public" complexity="2" crap="2" count="9"/>
+        <line num="23" type="stmt" count="9"/>
+        <line num="25" type="stmt" count="5"/>
+        <line num="29" type="stmt" count="4"/>
+        <line num="31" type="stmt" count="5"/>
+        <line num="37" type="method" name="check" visibility="private" complexity="4" crap="4" count="9"/>
+        <line num="39" type="stmt" count="9"/>
+        <line num="41" type="stmt" count="6"/>
+        <line num="43" type="stmt" count="6"/>
+        <line num="45" type="stmt" count="4"/>
+        <line num="49" type="stmt" count="5"/>
+        <line num="54" type="method" name="anonymousFunction:54#215" complexity="2" crap="2" count="2"/>
+        <line num="56" type="stmt" count="1"/>
+        <line num="57" type="stmt" count="2"/>
+        <metrics loc="59" ncloc="47" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="14" coveredelements="14"/>
+      </file>
+    </package>
+    <file name="/Users/tests/PhpstormProjects/converter/src/Contracts/CollectionBuilderInterface.php">
+      <metrics loc="19" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="Sarnado\Converter\Helpers">
+      <file name="/Users/tests/PhpstormProjects/converter/src/Helpers/ResultNumberFormatter.php">
+        <class name="Sarnado\Converter\Helpers\ResultNumberFormatter" namespace="Sarnado\Converter\Helpers">
+          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
+        </class>
+        <line num="13" type="method" name="formatFiat" visibility="public" complexity="1" crap="1" count="12"/>
+        <line num="15" type="stmt" count="12"/>
+        <line num="18" type="method" name="formatCrypto" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="20" type="stmt" count="6"/>
+        <line num="23" type="method" name="format" visibility="public" complexity="1" crap="1" count="18"/>
+        <line num="25" type="stmt" count="18"/>
+        <metrics loc="27" ncloc="27" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="6" coveredelements="6"/>
+      </file>
+    </package>
+    <package name="Sarnado\Converter\Lists">
+      <file name="/Users/tests/PhpstormProjects/converter/src/Lists/CryptoRateConverterTypes.php">
+        <class name="Sarnado\Converter\Lists\CryptoRateConverterTypes" namespace="Sarnado\Converter\Lists">
+          <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </class>
+        <metrics loc="9" ncloc="9" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="Sarnado\Converter\Objects">
+      <file name="/Users/tests/PhpstormProjects/converter/src/Objects/ConverterResultObject.php">
+        <class name="Sarnado\Converter\Objects\ConverterResultObject" namespace="Sarnado\Converter\Objects">
+          <metrics complexity="6" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="16" coveredelements="16"/>
+        </class>
+        <line num="28" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="18"/>
+        <line num="30" type="stmt" count="18"/>
+        <line num="31" type="stmt" count="18"/>
+        <line num="32" type="stmt" count="18"/>
+        <line num="37" type="method" name="getAmount" visibility="public" complexity="1" crap="1" count="18"/>
+        <line num="39" type="stmt" count="18"/>
+        <line num="45" type="method" name="setAmount" visibility="public" complexity="1" crap="1" count="18"/>
+        <line num="47" type="stmt" count="18"/>
+        <line num="48" type="stmt" count="18"/>
+        <line num="53" type="method" name="getCurrency" visibility="public" complexity="1" crap="1" count="18"/>
+        <line num="55" type="stmt" count="18"/>
+        <line num="61" type="method" name="setCurrency" visibility="public" complexity="1" crap="1" count="18"/>
+        <line num="63" type="stmt" count="18"/>
+        <line num="64" type="stmt" count="18"/>
+        <line num="69" type="method" name="toString" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="71" type="stmt" count="9"/>
+        <metrics loc="73" ncloc="44" classes="1" methods="6" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="10" coveredstatements="10" elements="16" coveredelements="16"/>
+      </file>
+      <file name="/Users/tests/PhpstormProjects/converter/src/Objects/CryptoRateObject.php">
+        <class name="Sarnado\Converter\Objects\CryptoRateObject" namespace="Sarnado\Converter\Objects">
+          <metrics complexity="14" methods="14" coveredmethods="14" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="49" coveredelements="49"/>
+        </class>
+        <line num="38" type="method" name="getCrypto" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="40" type="stmt" count="5"/>
+        <line num="46" type="method" name="setCrypto" visibility="public" complexity="1" crap="1" count="39"/>
+        <line num="48" type="stmt" count="39"/>
+        <line num="49" type="stmt" count="39"/>
+        <line num="54" type="method" name="getFiat" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="56" type="stmt" count="5"/>
+        <line num="62" type="method" name="setFiat" visibility="public" complexity="1" crap="1" count="39"/>
+        <line num="64" type="stmt" count="39"/>
+        <line num="65" type="stmt" count="39"/>
+        <line num="70" type="method" name="getRate" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="72" type="stmt" count="2"/>
+        <line num="79" type="method" name="setRate" visibility="public" complexity="1" crap="1" count="39"/>
+        <line num="81" type="stmt" count="39"/>
+        <line num="82" type="stmt" count="39"/>
+        <line num="83" type="stmt" count="39"/>
+        <line num="88" type="method" name="getTime" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="90" type="stmt" count="1"/>
+        <line num="96" type="method" name="setTime" visibility="public" complexity="1" crap="1" count="39"/>
+        <line num="98" type="stmt" count="39"/>
+        <line num="99" type="stmt" count="39"/>
+        <line num="104" type="method" name="getExchange" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="112" type="method" name="setExchange" visibility="public" complexity="1" crap="1" count="39"/>
+        <line num="114" type="stmt" count="39"/>
+        <line num="115" type="stmt" count="39"/>
+        <line num="118" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="39"/>
+        <line num="120" type="stmt" count="39"/>
+        <line num="121" type="stmt" count="39"/>
+        <line num="122" type="stmt" count="39"/>
+        <line num="123" type="stmt" count="39"/>
+        <line num="124" type="stmt" count="39"/>
+        <line num="125" type="stmt" count="39"/>
+        <line num="127" type="method" name="convertToCrypto" visibility="public" complexity="1" crap="1" count="14"/>
+        <line num="129" type="stmt" count="14"/>
+        <line num="131" type="stmt" count="6"/>
+        <line num="133" type="stmt" count="6"/>
+        <line num="135" type="stmt" count="6"/>
+        <line num="137" type="stmt" count="6"/>
+        <line num="139" type="stmt" count="6"/>
+        <line num="142" type="method" name="convertToFiat" visibility="public" complexity="1" crap="1" count="14"/>
+        <line num="144" type="stmt" count="14"/>
+        <line num="146" type="stmt" count="6"/>
+        <line num="148" type="stmt" count="6"/>
+        <line num="150" type="stmt" count="6"/>
+        <line num="152" type="stmt" count="6"/>
+        <line num="154" type="stmt" count="6"/>
+        <line num="157" type="method" name="checkRateExists" visibility="private" complexity="1" crap="1" count="12"/>
+        <line num="159" type="stmt" count="12"/>
+        <metrics loc="161" ncloc="112" classes="1" methods="14" coveredmethods="14" conditionals="0" coveredconditionals="0" statements="35" coveredstatements="35" elements="49" coveredelements="49"/>
+      </file>
+      <file name="/Users/tests/PhpstormProjects/converter/src/Objects/FiatRateObject.php">
+        <class name="Sarnado\Converter\Objects\FiatRateObject" namespace="Sarnado\Converter\Objects">
+          <metrics complexity="10" methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="33" coveredelements="33"/>
+        </class>
+        <line num="37" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="25"/>
+        <line num="39" type="stmt" count="25"/>
+        <line num="40" type="stmt" count="25"/>
+        <line num="41" type="stmt" count="25"/>
+        <line num="42" type="stmt" count="25"/>
+        <line num="43" type="stmt" count="25"/>
+        <line num="48" type="method" name="getFrom" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="56" type="method" name="setFrom" visibility="public" complexity="1" crap="1" count="25"/>
+        <line num="58" type="stmt" count="25"/>
+        <line num="59" type="stmt" count="25"/>
+        <line num="64" type="method" name="getTo" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="66" type="stmt" count="5"/>
+        <line num="72" type="method" name="setTo" visibility="public" complexity="1" crap="1" count="25"/>
+        <line num="74" type="stmt" count="25"/>
+        <line num="75" type="stmt" count="25"/>
+        <line num="80" type="method" name="getRate" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="82" type="stmt" count="2"/>
+        <line num="88" type="method" name="setRate" visibility="public" complexity="1" crap="1" count="25"/>
+        <line num="90" type="stmt" count="25"/>
+        <line num="92" type="stmt" count="25"/>
+        <line num="93" type="stmt" count="25"/>
+        <line num="98" type="method" name="getTime" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="100" type="stmt" count="1"/>
+        <line num="106" type="method" name="setTime" visibility="public" complexity="1" crap="1" count="25"/>
+        <line num="108" type="stmt" count="25"/>
+        <line num="109" type="stmt" count="25"/>
+        <line num="115" type="method" name="convert" visibility="public" complexity="1" crap="1" count="14"/>
+        <line num="117" type="stmt" count="14"/>
+        <line num="119" type="stmt" count="6"/>
+        <line num="121" type="stmt" count="6"/>
+        <line num="123" type="stmt" count="6"/>
+        <line num="125" type="stmt" count="6"/>
+        <metrics loc="127" ncloc="77" classes="1" methods="10" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="23" coveredstatements="23" elements="33" coveredelements="33"/>
+      </file>
+    </package>
+    <metrics files="11" loc="635" ncloc="459" classes="9" methods="42" coveredmethods="42" conditionals="0" coveredconditionals="0" statements="114" coveredstatements="114" elements="156" coveredelements="156"/>
+  </project>
+</coverage>

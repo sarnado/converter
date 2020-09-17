@@ -1,0 +1,15 @@
+language: php
+
+php:
+  - 7.0
+  - 7.1
+  - 7.2
+  - 7.4
+  - hhvm
+
+install:
+  - composer install
+
+script:
+  - composer test -- --coverage-clover=coverage.clover
+
