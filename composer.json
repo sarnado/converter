@@ -1,0 +1,32 @@
+{
+    "name": "sarnado/converter",
+    "description": "API client for sarnado converter",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sarnado",
+            "email": "support@sarnado.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Sarnado\\Converter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Sarnado\\Converter\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.0",
+        "ext-bcmath": "*",
+        "guzzlehttp/guzzle": "^7.0",
+        "tightenco/collect": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}
