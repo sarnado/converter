@@ -10,6 +10,10 @@
         </testsuite>
     </testsuites>
 
+    <php>
+        <env name="API_KEY" value="736ada93a984558e3236691e7ada9eca" force="true" />
+    </php>
+
     <filter>
         <whitelist>
             <directory>src</directory>

@@ -15,5 +15,5 @@ interface CollectionBuilderInterface
      * @param array $data
      * @return Collection
      */
-    public static function build(array $data): Collection;
+    public static function build(array $data);
 }

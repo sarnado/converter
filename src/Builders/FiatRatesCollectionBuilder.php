@@ -6,8 +6,6 @@ namespace Sarnado\Converter\Builders;
 
 use Sarnado\Converter\Collections\FiatRatesCollection;
 use Sarnado\Converter\Contracts\CollectionBuilderInterface;
-use Sarnado\Converter\Objects\FiatRateObject;
-use Tightenco\Collect\Support\Collection;
 
 /**
  * Class FiatRatesCollectionBuilder
@@ -18,21 +16,18 @@ class FiatRatesCollectionBuilder implements CollectionBuilderInterface
 
     /**
      * @param array $data
-     * @return Collection
+     * @return FiatRatesCollection
      */
-    public static function build(array $data = []): Collection
+    public static function build(array $data = []): FiatRatesCollection
     {
         $res = [];
         if (!empty($data))
         {
             foreach ($data as $rate)
             {
-                if (!isset($rate['rate'], $rate['from'], $rate['to'], $rate['time']))
-                {
-                    throw new \UnexpectedValueException('Not valid item');
-                }
-                $key = $rate['from'] . '_' . $rate['to'];
-                $result[$key] = new FiatRateObject($rate['from'], $rate['to'], $rate['rate'], $rate['time']);
+                $object = FiatRateObjectBuilder::build($rate);
+                $key = $object->getFrom() . '_' . $object->getTo();
+                $result[$key] = $object;
             }
         }
         return new FiatRatesCollection($res);
