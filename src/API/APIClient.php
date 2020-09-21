@@ -95,9 +95,9 @@ class APIClient
     }
 
     /**
-     * @param null $crypto
-     * @param null $fiat
-     * @param null $exchange
+     * @param null|string $crypto
+     * @param null|string $fiat
+     * @param null|string $exchange
      * @return APIResponse
      * @throws BadRequestException
      * @throws ConverterServerErrorException
@@ -120,8 +120,8 @@ class APIClient
     }
 
     /**
-     * @param null $from
-     * @param null $to
+     * @param null|string $from
+     * @param null|string $to
      * @return APIResponse
      * @throws BadRequestException
      * @throws ConverterServerErrorException

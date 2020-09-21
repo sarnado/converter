@@ -70,9 +70,9 @@ class SarnadoConverter
     }
 
     /**
-     * @param null $crypto
-     * @param null $fiat
-     * @param null $exchange
+     * @param null|string $crypto
+     * @param null|string $fiat
+     * @param null|string $exchange
      * @return Collections\CryptoRatesCollection|Objects\CryptoRateObject
      * @throws Exceptions\BadAPIResponseException
      * @throws Exceptions\BadRequestException
@@ -93,8 +93,8 @@ class SarnadoConverter
     }
 
     /**
-     * @param null $from
-     * @param null $to
+     * @param null|string $from
+     * @param null|string $to
      * @return Collections\FiatRatesCollection|Objects\FiatRateObject
      * @throws Exceptions\BadAPIResponseException
      * @throws Exceptions\BadRequestException
