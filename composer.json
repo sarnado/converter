@@ -23,12 +23,12 @@
     "require": {
         "php": "^7.0",
         "ext-bcmath": "*",
-        "guzzlehttp/guzzle": "^6.5.x-dev",
-        "tightenco/collect": "^5.5.49",
+        "guzzlehttp/guzzle": ">=6.5.5",
+        "tightenco/collect": ">=5.5.49",
         "ext-json": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.0"
+        "phpunit/phpunit": "^6.4 || ^7.0"
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
