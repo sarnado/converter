@@ -23,7 +23,7 @@
     "require": {
         "php": "^7.0",
         "ext-bcmath": "*",
-        "guzzlehttp/guzzle": "^6.0",
+        "guzzlehttp/guzzle": "^6.5.x-dev",
         "tightenco/collect": "^5.5.49",
         "ext-json": "*"
     },
